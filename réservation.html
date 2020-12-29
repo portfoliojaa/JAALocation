@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Réservation</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+  
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <!-- start menu -->
+    <link href="css/megamenu.css" rel="stylesheet" type="text/css" media="all" />
+    <script type="text/javascript" src="js/megamenu.js"></script>
+    <script src="js/menu_jquery.js"></script>
+    <script src="js/simpleCart.min.js"> </script>
+    <!--web-fonts-->
+      <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,300italic,600,700' rel='stylesheet' type='text/css'>
+      <link href='//fonts.googleapis.com/css?family=Roboto+Slab:300,400,700' rel='stylesheet' type='text/css'>
+    <!--//web-fonts-->
+      <script src="js/scripts.js" type="text/javascript"></script>
+      <script src="js/modernizr.custom.js"></script>
+      <script type="text/javascript" src="js/move-top.js"></script>
+      <script type="text/javascript" src="js/easing.js"></script>
+
+        <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+   <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <!-- Custom Theme files -->
+    <link href="css/style.css" rel='stylesheet' type='text/css' />  
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+</head>
+    <body>
+        <div class="container-fluid orange">
+         <div class="row" id="haut">  
+              <div class="col-lg-4 col-md-4  col-sm-4 "  id="first">
+                  <a class="lien1" href="index.html">Société &middot;</a>
+                  <a class="lien2" href="Gallery_1.html">Gallery &middot;</a>
+                  <a class="lien3" href="Contact.html">Contact</a> 
+              </div> 
+
+                    <div class=" col-lg-6 col-md-6  col-sm-6 hidden-xs "  id="social">
+                     <a href="www.facebook.com"><img src="image/fb.png" ></a>
+                     <a href="www.twiter.com"><img src="image/twt.png" ></a>
+                     <a href="www.in.com"><img src="image/in.png" ></a>
+                     <a href="www.Youtube.com"><img src="image/tube.png"></a> 
+                    </div>
+
+               <a   href="#"><img src="image/fr.png" id="lang" /></a>
+               <a   href="#"><img src="image/en.png" id="lang" /></a>      
+            </div>
+
+          <div class="row"  style="background-image: url(image/mur.png)" >      
+                   <div class="logo col-md-2  col-sm-3 col-xs-6">
+                      <a class="logo1"  href="index.html"><img src="image/LoGoJAA.png"  class="img-responsive center-block" /></a>
+                   </div>
+                   <div class="col-md-8  col-sm-6 hidden-xs ">
+                      <a  class="logo2"><img src="image/ligne.png"  class="img-responsive  center-block" /></a> 
+                   </div>
+                   <div class="col-md-2 col-sm-3 col-xs-6">
+                      <a class="logo3" href="Contact.html"><img src="image/service.png" class="img-responsive center-block"  /></a>
+                   </div>
+          </div>
+         
+  <div class="menu" >
+    <div class="navbar-wrapper">
+      <div class="container" >
+        <nav class="navbar navbar-inverse navbar-static-top" data-spy="affix" data-offset-top="197">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">JAALOCATION</a>
+            </div>
+
+            <div id="navbar" class="navbar-collapse collapse">
+
+              <ul class="nav navbar-nav">
+                  <li class="active"><a href="index.html">Home</a></li>
+                  <li><a href="Réservation.html">Réservation</a></li>
+                  <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gallery<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                      <li><a href="Gallery_1.html">Gallery-1</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="Gallery_2.html">Gallery-2</a></li>
+                  </ul>
+                  </li>
+                  <li><a href="About.html">About</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+              </ul>
+
+            <ul class="nav navbar-nav navbar-right" id="nav-right">
+              <li><a href="#" data-target="#log"  data-toggle="modal"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+
+            </div> 
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>  
+
+<div class="row">
+           
+    <div class="lcontact span_1_of_contact  col-md-6" >
+              <div class="contact-form"> 
+                  <form  role="form"  target="_blank" method="GET" action="">
+
+                    <div class="comment-form-author"><label>Votre Nom:</label>
+                    <input class="textbox" type="text"  required="required" placeholder="Entre Votre Nom...">
+                    </div>
+                     <div class="comment-form-author">
+                     <label>Prénom</label>
+                     <input class="textbox" type="text" required="required" placeholder="Entre Votre prenom...">
+                     </div>
+                     
+                     <div class="comment-form-author"><label>Email:</label>
+                     <input class="email" type="email"  required="required" placeholder="Entre Votre E-mail...">
+                     </div> 
+                     <div class="comment-form-author">
+                          <label>CIN / Numéro Pass porte:</label>
+                          <input class="textbox" type="text" required="required" placeholder="Entre Votre CIN / Numéro Pass porte...">
+                      </div>
+                      <div class="comment-form-author">
+                          <label>Numéro du Permis:</label>
+                          <input class="textbox" type="text"  required="required" placeholder="Entre Votre Numéro du Permis.." >
+                      </div>
+                      <div class="comment-form-author">
+                          <label>Tél:</label>
+                          <input class="textbox" type="text" required="required" placeholder="Entre Votre Tél..">
+                      </div>
+
+                       <div class="form-group">
+                       <label for="">Choisisez votre voiture:</label>
+                       <select class="form-control"  required="required">
+                            <option>Volkswagen Polo</option>
+                            <option>Skoda Octavia Diesel</option>
+                            <option>Ford Fiesta Diesel</option>
+                            <option>DACIA DUSTER</option>
+                            <option>Mercredis</option>
+                            <option>Renault</option>
+                        </select>
+                        </div>
+                <div class="comment-form-author">
+                  <label>Date Début:</label>
+                  <input type="text" required="required" placeholder="Date Début..">
+                </div>
+                <div class="comment-form-author">
+                  <label>Date Fin:</label>
+                  <input  type="text" required="required"  placeholder="Date Fin..">
+                </div><br/>
+
+                 <div class="button">
+                   <button  id="cnx"  type="submit" class="btn btn-success">Valider  <span class="glyphicon glyphicon-ok"></span></a>          
+                   <button  id="annuler"  class="btn btn-danger">Annuler  <span class="glyphicon glyphicon-remove"></span></a>
+                 </div>
+             
+             </form>
+            </div>
+
+          </div>
+               <div class="col-md-4   hidden-sm hidden-xs">
+                    <div  id="cle1">
+                       <img class="img-circle  img-responsive  "  src="image/form1.jpg " >
+                    </div>
+                    <div  id="cle2">
+                       <img class="img-circle  img-responsive"  src="image/form2.jpg " >
+                    </div> 
+                    <div  id="cle3">
+                       <img class="img-circle  img-responsive"  src="image/cle.jpg " >
+                    </div> 
+              </div>
+        </div> 
+
+      <div class="row"  align="center" style="margin-top:15px">
+            <div class="col-xs-12  col-sm-12 hidden-md hidden-lg">
+                <a href="www.facebook.com"><img src="image/fb.png"></a>
+                <a href="www.twiter.com"><img src="image/twt.png"></a>
+                <a href="www.in.com"><img src="image/in.png"></a>
+                <a href="www.Youtube.com"><img src="image/tube.png"></a>
+            </div>
+      </div>
+
+
+      <hr class="featurette-divider">
+      <!-- /END THE FEATURETTES -->
+      <div class="col-md-12">
+      <!-- FOOTER -->
+      <footer>  <div class="row"  align="center">
+            <div class="col-xs-10  col-sm-10  col-md-12  col-lg-12">
+                <a href="#" data-target="#cm"  data-toggle="modal"><img src="image/cart-money.jpg" ></a>
+                <a href="#" data-target="#cp"  data-toggle="modal"><img src="image/cart-pay.jpg" ></a>
+                <a href="#" data-target="#cv"  data-toggle="modal"><img src="image/cart-visa.jpg" ></a>
+            </div>
+      </div>
+        <p class="pull-right"><a href="#">Back to Top</a></p>
+        <p>&copy; 2015 Company, Inc. &middot;All rights reserved | Design By Youness Jaa &middot; <a href="#">Terms</a>  &middot; <a href="About.html">About</a></p>
+      </footer>
+   </div>
+</div><!--fin container-fluid 3-->
+
+<!--Login-->
+       <div class="container">
+            <!-- Modal -->
+            <div class="modal fade " id="log" role="dialog">
+                <br/><br/><br/>
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content ">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title"><span class="glyphicon glyphicon-user"> Authentification</span></h3>
+                        </div>
+
+                        <div class="modal-body">
+                          <h3>Bienvenu :</h3>
+                           <form class="cart">
+                                <div >
+                                    <label >Login: </label>
+                                    <input required="required" placeholder="Entre Votre Login" type="text">
+                                </div>
+                                <div >
+                                    <label >Mot de Pass : </label>
+                                    <input required="required" placeholder="Entre Votre Mot de Pass" type="password">
+                                </div>
+                          </form>
+                        </div>
+
+                  <div class="modal-footer">
+                     <button id="val" style="margin-left:20px;" class="btn btn-success">Connexion</a> 
+                    <button type="button" id="nul" data-dismiss="modal" class="btn btn-danger">Annuler <span class="glyphicon glyphicon-remove"></span></a>
+                  </div>
+                 </div>
+                </div>
+            </div>
+        </div>
+<!--/Login-->
+
+
+       <div class="container">
+            <!-- Modal -->
+            <div class="modal fade " id="cm" role="dialog">
+                <br/><br/><br/>
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content ">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title"><span >Form Carte-Money</span></h3>
+                        </div>
+                        <div class="modal-body">
+                            <p>Remplire Les Champ Suivant : </p>
+                            <form class="cart">
+                                <div >
+                                    <label >Votre CIN/Nom : </label>
+                                    <input required="required" placeholder="Entre Votre CIN/Nom" type="text">
+                                </div>
+                                <div >
+                                    <label >Votre Code Bancaire : </label>
+                                    <input required="required" placeholder="Entre Votre code Bancaire" type="text">
+                                </div>
+                                <div  >
+                                    <label  >Adress Email : </label>
+                                    <input required="required" placeholder="Entre Votre E-Mail">
+                                </div>
+                                  <button id="val" style="margin-left:20px;" class="btn btn-success">Envoyée <span class="glyphicon glyphicon-ok"  ></span></a> 
+                            </form>
+
+                        </div>
+
+                  <div class="modal-footer">
+                    <button type="button" id="nul" data-dismiss="modal" class="btn btn-danger">Close <span class="glyphicon glyphicon-remove"></span></a>
+                  </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+             <div class="container">
+            <!-- Modal -->
+            <div class="modal fade " id="cp" role="dialog">
+                <br/><br/><br/>
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content ">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title"><span >Form Carte PayPal</span></h3>
+                        </div>
+                        <div class="modal-body">
+                            <p>Remplire Les Champ Suivant : </p>
+                            <form class="cart">
+                                <div id="nom">
+                                    <label>Votre CIN/Nom : </label>
+                                    <input type="text" required="required" placeholder="Entre Votre CIN/Nom">
+                                </div  id="code" >
+                                <div >
+                                    <label>Votre Code Bancaire : </label>
+                                    <input type="text" required="required" placeholder="Entre Votre Code Bancaire">
+                                </div>
+                                <div   id="email">
+                                    <label>Adress Email : </label>
+                                    <input   type="" required="required" placeholder="Entre Votre E-Mail">
+                                </div>
+                                  <button  id="val"  style="margin-left:20px;" class="btn btn-success">Envoyée <span class="glyphicon glyphicon-ok"></span></a> 
+                            </form>
+
+                        </div>
+
+                  <div class="modal-footer">
+                    <button type="button" id="nul" data-dismiss="modal" class="btn btn-danger">Close <span class="glyphicon glyphicon-remove"></span></a>
+                  </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+             <div class="container">
+            <!-- Modal -->
+            <div class="modal fade " id="cv" role="dialog">
+                <br/><br/><br/>
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content ">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title"><span >Form Carte Visa</span></h3>
+                        </div>
+                        <div class="modal-body">
+                            <p>Remplire Les Champ Suivant : </p>
+                            <form class="cart">
+                                <div id="nom">
+                                    <label>Votre CIN/Nom : </label>
+                                    <input type="text" required="required" placeholder="Entre Votre CIN/Nom">
+                                </div  id="code" >
+                                <div >
+                                    <label>Votre Code Bancaire : </label>
+                                    <input type="text" required="required" placeholder="Entre Votre Code Bancaire">
+                                </div>
+                                <div id="email">
+                                    <label>Adress Email : </label>
+                                    <input  type="text" required="required" placeholder="Entre Votre E-Mail">
+                                </div>
+                                  <button  id="val"  style="margin-left:20px;" class="btn btn-success">Envoyée <span class="glyphicon glyphicon-ok"></span></a> 
+                            </form>
+
+                        </div>
+
+                  <div class="modal-footer">
+                    <button type="button" id="nul" data-dismiss="modal" class="btn btn-danger">Close <span class="glyphicon glyphicon-remove"></span></a>
+                  </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    <script>$(document).ready(function(){$(".megamenu").megamenu();});</script>
+    <script type="applijegleryion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } 
+    </script>
+          <!--/script-->
+      <script type="text/javascript">
+            jQuery(document).ready(function($) {
+              $(".scroll").click(function(event){   
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+              });
+            });
+      </script>
+    <!--lightbox-->
+    
+    <!-- - Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="js/holder.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+    <!--  IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+</body>
+</html>
